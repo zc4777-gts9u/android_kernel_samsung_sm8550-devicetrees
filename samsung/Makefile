@@ -52,6 +52,11 @@ SAMSUNG_KALAMA_BOARDS += \
 	gts9wifi_eur_open_w00_r04.dtbo
 endif
 
+ifeq ($(CONFIG_SEC_PLATFORM_GTS9UWIFI),y)
+SAMSUNG_KALAMA_BOARDS += \
+    gts9uwifi_eur_open_w00_r03.dtbo
+endif
+
 ifeq ($(CONFIG_SEC_PLATFORM_B5Q),y)
 SAMSUNG_KALAMA_BOARDS +=\
     b5q_eur_openx_w00_r02.dtbo \
